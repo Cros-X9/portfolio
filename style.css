@@ -154,3 +154,51 @@ footer {
     }
 }
 
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill {
+    background: #191c24;
+    border: 1px solid #303440;
+    padding: 15px 25px;
+    border-radius: 8px;
+    color: #c4b5fd;
+    transition: 0.2s;
+}
+
+.skill:hover {
+    border-color: #8b72d9;
+    transform: translateY(-3px);
+}
+
+
+.project {
+    margin-bottom: 18px;
+}
+
+.project a {
+    display: inline-block;
+    color: #a78bfa;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.contacts {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.contacts a {
+    color: #a78bfa;
+    text-decoration: none;
+}
+
+.contacts a:hover,
+.project a:hover {
+    text-decoration: underline;
+}
+
